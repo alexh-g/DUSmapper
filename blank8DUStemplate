@@ -1,0 +1,30 @@
+## DNA Plot :: track template (created: 23/04/2018 17:43:22)
+# line attributes: start=0 end=length line_size=1 circular=true
+# tick marks: major=220000 minor=110000
+# GC Graph: height=0.17 window_size=10000 base_step_size=200 track=0.28 minus_colour=153:0:153 plus_colour=179:179:26
+# GC Skew Graph: height=0.18 window_size=10000 base_step_size=200 track=0.1 minus_colour=153:0:153 plus_colour=179:179:26
+# Columns are:
+# POS  - track position
+# SIZE - track size
+# FWD  - show forward strand features
+# REV  - show reverse strand features
+# NOT  - use NOT
+# ANY  - show any features
+# KEY  - show features of this key
+# QUAL - show features with this qualifier
+# VAL  - show features with this qualifier value(s)
+# COL  - colour for this track e.g. 255:0:0 (R:G:B) or NULL
+# NAME - file entry name or null
+# DIR  - root directory for this file
+#
+#POS	SIZE	FWD	REV	NOT 	ANY	KEY	QUAL	VAL	COL	NAME	DIR
+0.95	10.0	true	false	false	false	CDS	pseudo		255:0:0	genome_file	path
+0.9	10.0	false	true	false	false	CDS	pseudo		255:0:0	genome_file	path
+0.85	10.0	true	true	true	false	misc_feature	note	AT-DUS	0:204:102	genome_file	path
+0.8	10.0	true	true	true	false	misc_feature	note	AG-DUS	0:102:255	genome_file	path
+0.75	10.0	true	true	true	false	misc_feature	note	AG-kingDUS	255:153:0	genome_file	path
+0.7	10.0	true	true	true	false	misc_feature	note	AG-simDUS	204:0:255	genome_file	path
+0.65	10.0	true	true	true	false	misc_feature	note	AG-mucDUS	null	genome_file	path
+0.6	10.0	true	true	true	false	misc_feature	note	AG-eikDUS	255:0:255	genome_file	path
+0.55	10.0	true	true	true	false	misc_feature	note	AA-king3DUS	204:204:0	genome_file	path
+0.5	10.0	true	true	true	false	misc_feature	note	TG-wadDUS	102:102:102	genome_file	path
