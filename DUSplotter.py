@@ -1,6 +1,3 @@
-#!/Users/AHG/anaconda/bin/python
-# coding: utf-8
-
 from Bio.Emboss.Applications import FuzznucCommandline
 from Bio import SeqIO
 import os, sys
@@ -79,7 +76,7 @@ for filename in glob.glob(join(sys.argv[1],'*.gb*')):
             os.remove(join(outdir, edit))
 
         #create bespoke template file :
-        original_template = '/path/to/blank8DUStemplate'
+        original_template = '/path/to/blank8DUStemplate' #replace with file path DUSPlotter template file
         template_edit = join(outdir, genome_base+'8DUStemplate')
         seq = SeqIO.read(out,'genbank')
 
