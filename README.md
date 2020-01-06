@@ -1,5 +1,5 @@
 # DUSmapper
-Identifies putative genomic islands in Neisseriaceae genome sequence data via DNA uptake sequence distributions
+A Python 2.7 script which identifies putative genomic islands in Neisseriaceae genome sequence data via DNA uptake sequence distributions
 
 Dependencies:
 
