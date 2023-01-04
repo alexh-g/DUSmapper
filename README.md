@@ -71,7 +71,7 @@ To output the template file and launcher bash script for DNAPlotter, two additio
 If you opt to run the jupyter notebook version of the script, you just need to assign the relevant paths to the `dir_path`, `plotter_template`, 
 and `DNAPlotter_path` variables.
 
-I have provided three example genomes (Neisseria meningitidis MC58, Neisseria lactamica 020-06, and Wielerella bovis CCUG 44465) to test the script with, as well as a folder containing the expected script output from each genome. In the expected output folders, the example launch scripts and templates for DUSPlotter won't actually function because they contain absolute paths to the genome files I used when running DUSPlotter.
+I have provided three example genomes (Neisseria meningitidis MC58, Neisseria lactamica 020-06, and Wielerella bovis CCUG 44465) to test the script with, as well as a folder containing the expected script output from each genome. In the 'expected output' folders, the launch scripts and templates for DUSPlotter won't actually function because they contain absolute paths to the specific genome files I used when running DUSPlotter.
 
 ## NOTES
 
