@@ -10,14 +10,19 @@ Tested on a Mac with python 3.9.
 
 ## DEPENDENCIES
 
-- fuzznuc (from the EMBOSS package) – a pattern search tool for nucleotide sequences (http://emboss.toulouse.inra.fr/cgi-bin/emboss/help/fuzznuc)
+The following prerequisite python packages are included if you install python via [anaconda](https://www.anaconda.com/):
+
 - Biopython (https://biopython.org/)
-- DNAPlotter is used for visualisation of the script output (https://www.sanger.ac.uk/science/tools/dnaplotter)
 - Numpy
 - Matplotlib
 
+Whereas the following need to be installed separately:  
+
+- fuzznuc (from the EMBOSS package) – a pattern search tool for nucleotide sequences (http://emboss.toulouse.inra.fr/cgi-bin/emboss/help/fuzznuc)
+- DNAPlotter – used to visualise circular genome plots of the script output (https://www.sanger.ac.uk/science/tools/dnaplotter)
+
 Before running the script it is a good idea to make sure fuzznuc is running okay in the command line (I installed fuzznuc via anaconda 
-using `conda install -c bioconda emboss`). **Please note, fuzznuc will not tolerate blank spaces in the path or file names of your genome sequence files, so be sure to replace these with e.g. underscores.**
+using `conda install -c bioconda emboss`). **Please note, fuzznuc will not tolerate blank spaces in the path or file names of your genome sequence files, so be sure to replace these with e.g. underscores.** Also try opening some genome sequence files in DNAPlotter and experiment with the track manager.
 
 
 ## SCRIPT INFORMATION
