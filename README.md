@@ -36,7 +36,7 @@ The most prevalent DUS dialect type (a.k.a primary DUS or prDUS, which is presum
 DUS targeted by ComP of the species) is identified, and regions of the genome containing a low density of prDUS ('DUS islands')
 are also annotated. The currently implemented method for desgnating DUS islands is very basic – only the gaps between directly adjacent 
 DUS on each strand are calculated, rather than the true local DUS density for a windowed region. DUS gaps which are greater than the
-median gap spacing + 4*IQR are classified as DUS islands, but this cutoff was chosen empirically by comparison with previously characterised 
+median gap spacing + 4*IQR (interqurtile range) are classified as DUS islands, but this cutoff was chosen empirically by comparison with previously characterised 
 Neisseria genomic islands, rather than by rigorous statistics. 
 I plan to implement a better method for identifying DUS islands based on local frequencies in future.
 
