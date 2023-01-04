@@ -1,0 +1,32 @@
+## DNA Plot :: track template (created: 23/04/2018 17:43:22)
+# line attributes: start=0 end=for_replacement line_size=1 circular=true
+# tick marks: major=0 minor=0
+# GC Graph: height=0.17 window_size=10000 base_step_size=200 track=0.28 minus_colour=153:0:153 plus_colour=179:179:26
+# GC Skew Graph: height=0.18 window_size=10000 base_step_size=200 track=0.1 minus_colour=0:0:51 plus_colour=153:153:153
+# Columns are:
+# POS  - track position
+# SIZE - track size
+# FWD  - show forward strand features
+# REV  - show reverse strand features
+# NOT  - use NOT
+# ANY  - show any features
+# KEY  - show features of this key
+# QUAL - show features with this qualifier
+# VAL  - show features with this qualifier value(s)
+# COL  - colour for this track e.g. 255:0:0 (R:G:B) or NULL
+# NAME - file entry name or null
+# DIR  - root directory for this file
+#
+#POS	SIZE	FWD	REV	NOT 	ANY	KEY	QUAL	VAL	COL	NAME	DIR
+0.97	11.0	true	false	false	false	CDS	pseudo		255:0:0	temp_genome.gb	/temp/path/
+0.92	11.0	false	true	false	false	CDS	pseudo		255:0:0	temp_genome.gb	/temp/path/
+0.87	11.0	true	true	true	false	misc_feature	note	AT-DUS	0:204:102	temp_genome.gb	/temp/path/
+0.82	11.0	true	true	true	false	misc_feature	note	AG-DUS	0:102:255	temp_genome.gb	/temp/path/
+0.77	11.0	true	true	true	false	misc_feature	note	AG-kingDUS	255:153:0	temp_genome.gb	/temp/path/
+0.72	11.0	true	true	true	false	misc_feature	note	AG-simDUS	204:0:255	temp_genome.gb	/temp/path/
+0.67	11.0	true	true	true	false	misc_feature	note	AG-mucDUS	null	temp_genome.gb	/temp/path/
+0.62	11.0	true	true	true	false	misc_feature	note	AG-eikDUS	255:0:255	temp_genome.gb	/temp/path/
+0.57	11.0	true	true	true	false	misc_feature	note	AA-king3DUS	204:204:0	temp_genome.gb	/temp/path/
+0.52	11.0	true	true	true	false	misc_feature	note	TG-wadDUS	102:102:102	temp_genome.gb	/temp/path/
+1.03	10.0	true	true	true	false	misc_feature	note	DUS_island_plus	0:204:204	temp_genome.gb	/temp/path/
+1.077	10.0	true	true	true	false	misc_feature	note	DUS_island_minus	155:204:204	temp_genome.gb	/temp/path/
