@@ -3,7 +3,7 @@
 DUSmapper is a Python script which identifies putative genomic islands in genome sequence data (primarily for Neisseriaceae species) via atypical DNA uptake sequence distributions.
 It is described further in [this paper](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000372) (please cite this paper if you use DUSmapper in your publications).   
 
-Depending on your preferred way of running python I have provided a .py script to be run from the command line, and an alternative .ipynb jupyter notebook.  
+Depending on your preferred way of using python I have provided a .py script to be run from the command line, and an alternative .ipynb jupyter notebook.  
 
 Tested on a Mac with python 3.9. 
 
