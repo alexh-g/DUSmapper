@@ -76,9 +76,9 @@ I have provided three example genomes (Neisseria meningitidis MC58, Neisseria la
 ## NOTES
 
 If you have multiple-entry GenBank genome files, these need to be converted to single-entry files before running DUSplotter. I have provided a short 
-script ('Multi -> single-record Genbank converter') for doing this. The script takes the directory containing your genome files as input, and outputs a 
+script, genbank_concat.py, for doing this. The script takes the directory containing your genome files as input, and outputs a 
 new directory containing concatenated single-entry versions (by default, entries are concatenated with 50 intervening 'N' characters to clearly denote
-contig boundaries).
+contig boundaries). The resulting genome files should be compatible with DUSmapper, but be wary of DUS island annotations that cross contig boundaries.
 
 Assignment of the 'plus' and 'minus' strand by the script is arbitrary, and is not based on e.g. replication or transcription directions.
 
