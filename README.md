@@ -27,7 +27,7 @@ using `conda install -c bioconda emboss`). **Please note, fuzznuc will not toler
 
 ## SCRIPT INFORMATION
 
-Thes script takes a directory containing single entry Genbank sequence files as input.
+Thes script takes a directory containing single-entry Genbank sequence files as input.
 All ocurrences of the specified DUS dialect sequences (allowances for nucleotide mismatches are optional) are identified and
 added into the Genbank file as annotations. By default, the specified dialect sequences are the eight 12 bp consensus sequences outlined 
 in [this paper](https://doi.org/10.1371/journal.pgen.1003458), but these can be modified.
@@ -74,6 +74,11 @@ and `DNAPlotter_path` variables.
 I have provided three example genomes (Neisseria meningitidis MC58, Neisseria lactamica 020-06, and Wielerella bovis CCUG 44465) to test the script with, as well as a folder containing the expected script output from each genome. In the 'expected output' folders, the launch scripts and templates for DUSPlotter won't actually function because they contain absolute paths to the specific genome files I used when running DUSPlotter.
 
 ## NOTES
+
+If you have multiple-entry GenBank genome files, these need to be converted to single-entry files before running DUSplotter. I have provided a short 
+script ('Multi -> single-record Genbank converter') for doing this. The script takes the directory containing your genome files as input, and outputs a 
+new directory containing concatenated single-entry versions (by default, entries are concatenated with 50 intervening 'N' characters to clearly denote
+contig boundaries).
 
 Assignment of the 'plus' and 'minus' strand by the script is arbitrary, and is not based on e.g. replication or transcription directions.
 
