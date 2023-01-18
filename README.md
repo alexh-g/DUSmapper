@@ -78,7 +78,9 @@ I have provided three example genomes (Neisseria meningitidis MC58, Neisseria la
 If you have multi-record GenBank genome files, these need to be converted to single-record files before running DUSplotter. I have provided a short 
 script, genbank_concat.py, for doing this. The script takes the directory containing your genome files as input, and outputs a 
 new directory containing concatenated single-record versions (by default, entries are concatenated with 50 intervening 'N' characters to clearly denote
-contig boundaries). The resulting genome files should be compatible with DUSmapper, but be wary of DUS island annotations that cross contig boundaries.
+contig boundaries). The resulting genome files should be compatible with DUSmapper, but there will be some inaccuracies because the script is blind to 
+contig boundaries e.g. some DUS island annotations may span multiple contigs, and the DUS gap statistics will be impacted by erroneous gap values at 
+contig boundaries.
 
 Assignment of the 'plus' and 'minus' strand by the script is arbitrary, and is not based on e.g. replication or transcription directions.
 
