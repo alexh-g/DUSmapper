@@ -82,7 +82,9 @@ contig boundaries). The resulting genome files should be compatible with DUSmapp
 contig boundaries e.g. some DUS island annotations may span multiple contigs, and the DUS gap statistics will be impacted by erroneous gap values at 
 contig boundaries.
 
+
 Assignment of the 'plus' and 'minus' strand by the script is arbitrary, and is not based on e.g. replication or transcription directions.
+
 
 The `blank8DUStemplate` DUSPlotter template file specifies the following tracks from innermost to outermost: 
 
